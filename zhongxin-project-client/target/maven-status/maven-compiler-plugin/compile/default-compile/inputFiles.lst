@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/vo/ProjectClientVO.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/dao/entity/ProjectClient.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/service/impl/ProjectClientServiceImpl.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/dao/impl/ProjectClientDAOImpl.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/converter/ProjectClientEntity2VoConverter.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/converter/ProjectClientVo2EntityConverter.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/service/ProjectClientService.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/dao/ProjectClientDAO.java
+/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-project-client/src/main/java/com/dongfang/client/zhongxin/project/client/converter/ProjectClientBeanCopierUtil.java

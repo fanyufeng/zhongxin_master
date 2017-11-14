@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="zhongxin-web-front">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="zhongxin-employee.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-employee/zhongxin-employee">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-commons.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-commons/zhongxin-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="zhongxin-web-front"/>
+        <property name="java-output-path" value="/zhongxin-web-front/target/classes"/>
+    </wb-module>
+</project-modules>

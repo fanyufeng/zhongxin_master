@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.dongfang.client</groupId>
+  <artifactId>zhongxin-master</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Dongfang CLIENT Parent</name>
+  <description>Dongfang ClIENT Parent/Aggregator</description>
+  <modules>
+
+  <module>zhongxin-employee</module>
+    <module>zhongxin-commons</module>
+    <module>zhongxin-project-client</module>
+    <module>zhongxin-controller</module>
+    <module>zhongxin-finance</module>
+    <module>zhongxin-web</module>
+  </modules>
+  <properties>
+		<javassist.version>3.15.0-GA</javassist.version>
+		<servlet.version>3.1.0</servlet.version>
+		<spring.version>3.2.9.RELEASE</spring.version>
+		<javax.persistence.version>1.0b</javax.persistence.version>
+		<javax.transaction.version>1.2</javax.transaction.version>
+		<junit.version>4.10</junit.version>
+		<tomcat.jdbc.pool.version>7.0.57</tomcat.jdbc.pool.version>
+		<mysql.connector.version>5.1.25</mysql.connector.version>
+		<hibernate.version>3.6.10.Final</hibernate.version>
+		<ehcache.version>1.2.3</ehcache.version>
+		<jpa.version>2.0-cr-1</jpa.version>
+		<slf4j.version>1.7.13</slf4j.version>
+		<log4j.version>1.2.17</log4j.version>
+		<apache.lang.version>2.0</apache.lang.version>
+		<commons.beanutils.version>1.8.0</commons.beanutils.version>
+		<commons.collections.version>3.2</commons.collections.version>
+		<commons.lang.version>2.4</commons.lang.version>
+		<json.version>2.1</json.version>
+		<jackson.version>1.9.13</jackson.version>
+		<gson.version>1.3</gson.version>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- 工具包 -->
+			<!-- 字节码操作依赖包，用于动态编程 -->
+			<dependency>
+				<groupId>org.javassist</groupId>
+				<artifactId>javassist</artifactId>
+				<version>${javassist.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-lang</groupId>
+				<artifactId>commons-lang</artifactId>
+				<version>${commons.lang.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-beanutils</groupId>
+				<artifactId>commons-beanutils</artifactId>
+				<version>${commons.beanutils.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-collections</groupId>
+				<artifactId>commons-collections</artifactId>
+				<version>${commons.collections.version}</version>
+			</dependency>
+			<!-- 日志相关依赖 -->
+			<!-- slf(simple logging facade)接口 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<!-- jcl(apache commons logging)桥接包 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>jcl-over-slf4j</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<!-- jcl(java util logging)桥接包 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>jul-to-slf4j</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<!-- log4j绑定包 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<!-- log4j包 -->
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>${log4j.version}</version>
+			</dependency>
+			<!-- Spring依赖包 -->
+			<!-- Spring核心包 -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-core</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<!-- Spring容器包，ApplicationContext -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<!-- Spring orm框架(如hibernate、ibatis、jpa等依赖包 -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-orm</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<!-- Spring测试单元依赖包 -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-test</artifactId>
+				<version>${spring.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- Hibernate依赖包 -->
+			<!-- Hibernate核心包 -->
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>${hibernate.version}</version>
+			</dependency>
+			<!-- 持久化注解依赖包 -->
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>persistence-api</artifactId>
+				<version>${javax.persistence.version}</version>
+			</dependency>
+			<!-- 持久化注解扩展包，如ElementCollection -->
+			<dependency>
+				<groupId>org.hibernate.java-persistence</groupId>
+				<artifactId>jpa-api</artifactId>
+				<version>${jpa.version}</version>
+			</dependency>
+			<!-- Hibernate二级缓存依赖包 -->
+			<dependency>
+				<groupId>net.sf.ehcache</groupId>
+				<artifactId>ehcache</artifactId>
+				<version>${ehcache.version}</version>
+			</dependency>
+			<!-- MySQL驱动依赖等 -->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>${mysql.connector.version}</version>
+			</dependency>
+			<!-- 数据库连接池 -->
+			<dependency>
+				<groupId>org.apache.tomcat</groupId>
+				<artifactId>tomcat-jdbc</artifactId>
+				<version>${tomcat.jdbc.pool.version}</version>
+			</dependency>
+			<!-- junit测试依赖包 -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${servlet.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<!-- View-返回JSON数据 -->
+			<dependency>
+  				<groupId>net.sf.json-lib</groupId>
+  				<artifactId>json-lib</artifactId>
+  				<version>${json.version}</version>
+  				<classifier>jdk15</classifier>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-core-asl</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-mapper-asl</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+  				<groupId>com.google.code.gson</groupId>
+  				<artifactId>gson</artifactId>
+  				<version>${gson.version}</version>
+			</dependency>
+			<dependency>
+    			<groupId>antlr</groupId>
+    			<artifactId>antlr</artifactId>
+    			<version>2.7.7</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+  			<groupId>sdk.java.auto.resource</groupId>
+  			<artifactId>sdk-java-auto-resource</artifactId>
+ 			<version>1.0</version>
+		</dependency>
+		<dependency>
+  			<groupId>sdk.java.auto</groupId>
+  			<artifactId>sdk-java-auto</artifactId>
+  			<version>1.0</version>
+		</dependency>
+		<dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.3.5</version>
+        </dependency>
+        <!-- 实现文件上传，spring集成了这个功能 -->
+        <!-- 实现文件上传，spring集成了这个功能 -->
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>hr-releases</id>
+			<name>HR Releases Repository</name>
+			<url>http://localhost:8081/nexus/content/repositories/hr-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>hr-snapshots/</id>
+			<name>HR Snapshots Repository</name>
+			<url>http://localhost:8081/nexus/content/repositories/hr-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>${project.build.testOutputDirectory}</directory>
+							<includes>
+								<include>**/*.xml</include>
+								<include>**/*.properties</include>
+							</includes>
+						</fileset>
+						<fileset>
+							<directory>${project.basedir}/logs</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+ 
+</project>

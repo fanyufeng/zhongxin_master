@@ -1,0 +1,5 @@
+com/dongfang/client/zhongxin/commons/utils/MyBeanUtils.class
+com/dongfang/client/zhongxin/commons/enums/ApiStatusCode.class
+com/dongfang/client/zhongxin/commons/utils/IDGeneratorUtils.class
+com/dongfang/client/zhongxin/commons/constants/Constants.class
+com/dongfang/client/zhongxin/commons/hibernate/BaseDao.class
