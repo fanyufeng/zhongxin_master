@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/dao/entity/Idea.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/converter/IdeaEntity2VoConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/service/impl/IdeaServiceImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/converter/IdeaVo2EntityConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/dao/impl/IdeaDAOImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/service/IdeaService.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/dao/IdeaDAO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/vo/IdeaVO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-idea/src/main/java/com/dongfang/client/zhongxin/idea/converter/IdeaBeanCopierUtil.java

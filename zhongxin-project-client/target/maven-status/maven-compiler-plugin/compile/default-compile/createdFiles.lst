@@ -1,9 +1,0 @@
-com/dongfang/client/zhongxin/project/client/dao/ProjectClientDAO.class
-com/dongfang/client/zhongxin/project/client/dao/impl/ProjectClientDAOImpl.class
-com/dongfang/client/zhongxin/project/client/converter/ProjectClientVo2EntityConverter.class
-com/dongfang/client/zhongxin/project/client/converter/ProjectClientBeanCopierUtil.class
-com/dongfang/client/zhongxin/project/client/converter/ProjectClientEntity2VoConverter.class
-com/dongfang/client/zhongxin/project/client/vo/ProjectClientVO.class
-com/dongfang/client/zhongxin/project/client/service/ProjectClientService.class
-com/dongfang/client/zhongxin/project/client/service/impl/ProjectClientServiceImpl.class
-com/dongfang/client/zhongxin/project/client/dao/entity/ProjectClient.class

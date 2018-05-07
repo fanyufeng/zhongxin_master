@@ -34,24 +34,47 @@ public class Employee implements Serializable{
 	public String name;
 	
 	/**
-	  * @Fields company : 公司
+	  * @Fields telephone : 电话
 	  */
-	public String company;
+	public String telephone;
 	
 	/**
-	  * @Fields permission : 权限
+	  * @Fields unionId : 微信识别标示
 	  */
-	public int permission;
+	public String unionId;
+	
+	/**
+	  * @Fields openid : 用户唯一标识
+	  */
+	public String openid;
+	
+	/**
+	  * @Fields gender : 性别
+	  */
+	public String gender;
+	
+	/**
+	  * @Fields college : 学校
+	  */
+	public String college;
+	
 	
 	/**
 	  * @Fields password : 密码
 	  */
 	public String password;
 	
+	public String sessionKey;
+	
 	/**
-	  * @Fields userName : 用户昵称
+	  * @Fields nickName : 用户昵称
 	  */
-	public String userName;
+	public String nickName;
+	
+	/**
+	  * @Fields avatarUrl : 头像地址
+	  */
+	public String avatarUrl;
 	
 	/**
 	  * @Fields createDate : 创建时间
@@ -84,22 +107,13 @@ public class Employee implements Serializable{
 		this.name = name;
 	}
 
-	@Column(name="company")
-	public String getCompany() {
-		return company;
+	@Column(name ="telephone")
+	public String getTelephone() {
+		return telephone;
 	}
 
-	public void setCompany(String company) {
-		this.company = company;
-	}
-
-	@Column(name="permission")
-	public int getPermission() {
-		return permission;
-	}
-
-	public void setPermission(int permission) {
-		this.permission = permission;
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
 	}
 
 	@Column(name="password")
@@ -110,14 +124,73 @@ public class Employee implements Serializable{
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
+	
 
-	@Column(name="user_name")
-	public String getUserName() {
-		return userName;
+	@Column(name ="avatar_url")
+	public String getAvatarUrl() {
+		return avatarUrl;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setAvatarUrl(String avatarUrl) {
+		this.avatarUrl = avatarUrl;
+	}
+
+	@Column(name ="unionid")
+	public String getUnionId() {
+		return unionId;
+	}
+
+	public void setUnionId(String unionId) {
+		this.unionId = unionId;
+	}
+	
+	
+	@Column(name ="college")
+	public String getCollege() {
+		return college;
+	}
+
+	public void setCollege(String college) {
+		this.college = college;
+	}
+
+	@Column(name="nick_name")
+	public String getNickName() {
+		return nickName;
+	}
+
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
+	}
+	
+	
+	@Column(name="openid")
+	public String getOpenid() {
+		return openid;
+	}
+
+	public void setOpenid(String openid) {
+		this.openid = openid;
+	}
+	
+	
+	@Column(name= "session_key")
+	public String getSessionKey() {
+		return sessionKey;
+	}
+
+	public void setSessionKey(String sessionKey) {
+		this.sessionKey = sessionKey;
+	}
+
+	@Column(name="gender")
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 
 	@Temporal(TemporalType.TIMESTAMP)
@@ -144,14 +217,9 @@ public class Employee implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", company=" + company + ", permission=" + permission
-				+ ", password=" + password + ", userName=" + userName + ", createDate=" + createDate
-				+ ", lastUpdateDate=" + lastUpdateDate + "]";
+		return "Employee [id=" + id + ", name=" + name + ", telephone=" + telephone + ", unionId=" + unionId
+				+ ", openid=" + openid + ", gender=" + gender + ", college=" + college + ", password=" + password
+				+ ", sessionKey=" + sessionKey + ", nickName=" + nickName + ", avatarUrl=" + avatarUrl + ", createDate="
+				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
-
-	
-
-	
-
-	
 }

@@ -36,11 +36,10 @@ public class LoginFilter implements Filter{
 		Object obj = httpRequest.getSession().getAttribute(Constants._SESSION_USER_ID_KEYPREFIX);
 		
 		//得到对应的session值
-		String sessionIdModel=httpRequest.getSession().getId();
-		boolean sessionIdStr=Constants.mapSession.containsValue(sessionIdModel);
 		if(StringUtils.isNotBlank(uriStr) &&
 				!uriStr.equals("/") &&		
-				!uriStr.equals("/hr-web-front/user/login") &&
+				!uriStr.equals("/zhongxin-web-front/employee/login") &&
+				!uriStr.equals("/zhongxin-web-front/employee/loginUnion") &&
 				obj == null){
 					ResponseDataModel resDataModel = new ResponseDataModel();
 					resDataModel.setStatusCode(ApiStatusCode.ACCESS_DENY.value());

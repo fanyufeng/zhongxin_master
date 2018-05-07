@@ -52,5 +52,9 @@ public interface EmployeeDAO {
 	  */
 	public void update(Employee employee) throws Exception;
 	
+	public List<Employee> getByunionId(String unionId) throws Exception;
+	
+	public List<Employee> getByopenid(String openid) throws Exception;
+	
 	
 }

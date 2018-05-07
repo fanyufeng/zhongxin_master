@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/dao/entity/Person.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/dao/PersonDAO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/vo/PersonVO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/dao/impl/PersonDAOImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/service/impl/PersonServiceImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/converter/PersonVo2EntityConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/converter/PersonBeanCopierUtil.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/service/PersonService.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-person/src/main/java/com/dongfang/client/zhongxin/person/converter/PersonEntity2VoConverter.java

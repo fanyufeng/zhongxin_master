@@ -122,6 +122,56 @@ public class EmployeeServiceImpl implements EmployeeService {
 		}
 	}
 	
+	
+	public EmployeeVO getByUnionId(String unionId) throws Exception{
+		try {
+			EmployeeVO userTelephone=null;
+			List<Employee> propertyList = employeeDAO.getByunionId(unionId);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<EmployeeVO> propertyVOList = new ArrayList<EmployeeVO>();
+				for(Employee property : propertyList) {
+					propertyVOList.add(EmployeeBeanCopierUtil.generateVO(property));
+				}
+				for(EmployeeVO u:propertyVOList){
+					 userTelephone=u;
+				}
+				return userTelephone;
+			} else {
+				return null;
+			}
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					unionId,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	public EmployeeVO getByopenid(String openid) throws Exception{
+		try {
+			EmployeeVO userTelephone=null;
+			List<Employee> propertyList = employeeDAO.getByopenid(openid);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<EmployeeVO> propertyVOList = new ArrayList<EmployeeVO>();
+				for(Employee property : propertyList) {
+					propertyVOList.add(EmployeeBeanCopierUtil.generateVO(property));
+				}
+				for(EmployeeVO u:propertyVOList){
+					 userTelephone=u;
+				}
+				return userTelephone;
+			} else {
+				return null;
+			}
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					openid,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
 
 	/**
 	  * @Fields LOGGER : 日志记录工具

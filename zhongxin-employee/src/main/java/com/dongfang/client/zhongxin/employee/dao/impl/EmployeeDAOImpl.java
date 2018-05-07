@@ -43,6 +43,38 @@ public class EmployeeDAOImpl extends BaseDao<Employee> implements EmployeeDAO {
 		
 	}
 	
+	@SuppressWarnings("unchecked")
+	public List<Employee> getByunionId(String unionId) throws Exception{
+		try {	
+			String queryString = "from Employee employee where employee.unionId = :unionId ";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("unionId",unionId);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("EmployeeDAOImpl#getListEmployee({}, {}) : {}", 
+					unionId,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Employee> getByopenid(String openid) throws Exception{
+		try {	
+			String queryString = "from Employee employee where employee.openid = :openid ";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("openid",openid);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("EmployeeDAOImpl#getListEmployee({}, {}) : {}", 
+					openid,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
 	
 	public String save(Employee employee) throws Exception {
 		try {

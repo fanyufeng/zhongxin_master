@@ -10,13 +10,11 @@
   <name>Dongfang CLIENT Parent</name>
   <description>Dongfang ClIENT Parent/Aggregator</description>
   <modules>
-
-  <module>zhongxin-employee</module>
+  	<module>zhongxin-employee</module>
     <module>zhongxin-commons</module>
-    <module>zhongxin-project-client</module>
-    <module>zhongxin-controller</module>
-    <module>zhongxin-finance</module>
     <module>zhongxin-web</module>
+    <module>zhongxin-idea</module>
+    <module>zhongxin-person</module>
   </modules>
   <properties>
 		<javassist.version>3.15.0-GA</javassist.version>

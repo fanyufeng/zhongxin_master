@@ -141,5 +141,15 @@
 			<artifactId>zhongxin-employee</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.dongfang.client</groupId>
+			<artifactId>zhongxin-idea</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.dongfang.client</groupId>
+			<artifactId>zhongxin-person</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 	</dependencies>
 </project>

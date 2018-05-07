@@ -37,6 +37,8 @@
         <property name="packagesToScan">
             <list>
                 <value>com.dongfang.client.zhongxin.employee.dao.entity</value>
+                <value>com.dongfang.client.zhongxin.idea.dao.entity</value>
+                <value>com.dongfang.client.zhongxin.person.dao.entity</value>
             </list>
         </property>
         <property name="hibernateProperties">

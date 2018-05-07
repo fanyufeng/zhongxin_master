@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
+		<property name="driverClassName" value="${pool.driverClassName}" />
+		<property name="url" value="${pool.url}" />
+		<property name="username" value="${pool.username}" />
+		<property name="password" value="${pool.password}" />
+		<property name="maxActive" value="${pool.maxActive}" />
+		<property name="minIdle" value="${pool.minIdle}" />
+		<property name="initialSize" value="${pool.initialSize}" />
+		<property name="maxWait" value="${pool.maxWait}" />
+		<property name="removeAbandonedTimeout" value="${pool.removeAbandonedTimeout}" />
+		<property name="validationInterval" value="${pool.validationInterval}" />
+		<property name="minEvictableIdleTimeMillis" value="${pool.minEvictableIdleTimeMillis}" />
+		<property name="timeBetweenEvictionRunsMillis" value="${pool.timeBetweenEvictionRunsMillis}" />
+		<property name="testOnBorrow" value="${pool.testOnBorrow}" />
+		<property name="testOnReturn" value="${pool.testOnReturn}" />
+		<property name="testWhileIdle" value="${pool.testWhileIdle}" />
+		<property name="validationQuery" value="${pool.validationQuery}" />
+		<property name="removeAbandoned" value="${pool.removeAbandoned}" />
+		<property name="logAbandoned" value="${pool.logAbandoned}" />
+		<property name="jmxEnabled" value="${pool.jmxEnabled}" />
+		<property name="jdbcInterceptors" value="${pool.jdbcInterceptors}" />
+		<property name="defaultAutoCommit" value="${pool.defaultAutoCommit}" />
+	</bean>
+
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean" >
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 扫描映射文件/实体类 -->
+        <property name="packagesToScan">
+            <list>
+                <value>com.dongfang.client.zhongxin.person.dao.entity</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">none</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.generate_statistics">true</prop>
+                <prop key="hibernate.query.substitutions">true 1, false 0</prop>
+                <prop key="hibernate.default_batch_fetch_size">16</prop>
+                <prop key="hibernate.max_fetch_depth">2</prop>
+                <!-- 强制Hibernate按照被更新数据的主键,为SQL更新排序,这么做将减少在高并发系统中事务的死锁 -->
+                <prop key="hibernate.order_updates">true</prop>
+                <prop key="hibernate.use_sql_comments">false</prop>
+                <prop key="hibernate.bytecode.use_reflection_optimizer">true</prop>
+				<!--<prop key="hibernate.current_session_context_class">jta</prop> -->
+                
+                <!-- 开启Hibernate二级缓存 -->
+                <prop key="hibernate.cache.use_query_cache">true</prop>
+                <prop key="hibernate.cache.use_second_level_cache">true</prop>
+                <prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider</prop>
+                <prop key="hibernate.cache.provider_configuration_file_resource_path">ehcache.xml</prop>
+                
+                <prop key="hibernate.cache.use_structured_entries">true</prop>
+                <prop key="hibernate.jdbc.use_scrollable_resultset">false</prop>
+                <prop key="hibernate.connection.autocommit">false</prop>
+                <prop key="javax.persistence.validation.mode">none</prop>
+            </props>
+        </property>
+    </bean>
+    
+    <!-- Spring 事务管理 -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+    	<property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <!--Spring Hibernate Template  -->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate" scope="singleton">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	 <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+	
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+</beans>

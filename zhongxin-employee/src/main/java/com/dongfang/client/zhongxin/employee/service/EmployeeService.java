@@ -35,8 +35,7 @@ public interface EmployeeService {
 	  */
 	public List<EmployeeVO> getStaffList(String companyId)throws Exception;
 	
-
-	
+	public EmployeeVO getByUnionId(String unionId) throws Exception;
 
 	/**
 	  * 根据companyId获取员工信息列表
@@ -58,4 +57,5 @@ public interface EmployeeService {
 	  * @throws Exception 
 	  */
 	public void update(EmployeeVO employeeVO) throws Exception;
+	public EmployeeVO getByopenid(String openid) throws Exception;
 }

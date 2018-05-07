@@ -27,24 +27,47 @@ public class EmployeeVO implements Serializable {
 	public String name;
 	
 	/**
-	  * @Fields company : 公司
+	  * @Fields telephone : 电话
 	  */
-	public String company;
+	public String telephone;
 	
 	/**
-	  * @Fields permission : 权限
+	  * @Fields unionId : 微信识别标示
 	  */
-	public int permission;
+	public String unionId;
+	
+	/**
+	  * @Fields openid : 用户唯一标识
+	  */
+	public String openid;
+	
+	/**
+	  * @Fields gender : 性别
+	  */
+	public String gender;
+	
 	
 	/**
 	  * @Fields password : 密码
 	  */
 	public String password;
 	
+	public String sessionKey;
+	
 	/**
-	  * @Fields userName : 用户昵称
+	  * @Fields avatarUrl : 头像地址
 	  */
-	public String userName;
+	public String avatarUrl;
+	
+	/**
+	  * @Fields nickName : 用户昵称
+	  */
+	public String nickName;
+	
+	/**
+	  * @Fields college : 学校
+	  */
+	public String college;
 	
 	/**
 	  * @Fields createDate : 创建时间
@@ -64,10 +87,6 @@ public class EmployeeVO implements Serializable {
 		this.id = id;
 	}
 
-	
-
-	
-
 	public String getName() {
 		return name;
 	}
@@ -76,20 +95,46 @@ public class EmployeeVO implements Serializable {
 		this.name = name;
 	}
 
-	public String getCompany() {
-		return company;
+	public String getTelephone() {
+		return telephone;
 	}
 
-	public void setCompany(String company) {
-		this.company = company;
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
 	}
 
-	public int getPermission() {
-		return permission;
+	public String getUnionId() {
+		return unionId;
 	}
 
-	public void setPermission(int permission) {
-		this.permission = permission;
+	public void setUnionId(String unionId) {
+		this.unionId = unionId;
+	}
+
+	public String getOpenid() {
+		return openid;
+	}
+
+	public void setOpenid(String openid) {
+		this.openid = openid;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	
+
+	public String getCollege() {
+		return college;
+	}
+
+	public void setCollege(String college) {
+		this.college = college;
 	}
 
 	public String getPassword() {
@@ -100,12 +145,30 @@ public class EmployeeVO implements Serializable {
 		this.password = password;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getSessionKey() {
+		return sessionKey;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setSessionKey(String sessionKey) {
+		this.sessionKey = sessionKey;
+	}
+
+	public String getNickName() {
+		return nickName;
+	}
+
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
+	}
+	
+	
+
+	public String getAvatarUrl() {
+		return avatarUrl;
+	}
+
+	public void setAvatarUrl(String avatarUrl) {
+		this.avatarUrl = avatarUrl;
 	}
 
 	public Date getCreateDate() {
@@ -126,10 +189,9 @@ public class EmployeeVO implements Serializable {
 
 	@Override
 	public String toString() {
-		return "EmployeeVO [id=" + id + ", name=" + name + ", company=" + company + ", permission=" + permission
-				+ ", password=" + password + ", userName=" + userName + ", createDate=" + createDate
-				+ ", lastUpdateDate=" + lastUpdateDate + "]";
+		return "EmployeeVO [id=" + id + ", name=" + name + ", telephone=" + telephone + ", unionId=" + unionId
+				+ ", openid=" + openid + ", gender=" + gender + ", password=" + password + ", sessionKey=" + sessionKey
+				+ ", avatarUrl=" + avatarUrl + ", nickName=" + nickName + ", college=" + college + ", createDate="
+				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
-
-	
 }

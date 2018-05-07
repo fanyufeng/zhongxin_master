@@ -1,0 +1,942 @@
+[2018-04-17 00:27:07.995] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:27:08.080] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 00:27:08.085] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:27:08.085] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:27:08.085] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 00:27:08.094] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 00:27:08.102] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 00:27:08.102] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 00:27:08.102] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 00:27:08.117] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 00:31:32.552] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:31:32.623] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 00:31:32.626] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:31:32.626] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:31:32.627] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 00:31:32.633] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 00:31:32.637] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 00:31:32.637] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 00:31:32.638] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 00:31:32.652] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 00:31:32.812] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:31:32.813] [main] [ERROR] [org.hibernate.tool.hbm2ddl.SchemaExport] - schema export unsuccessful
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:357)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:346)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:83)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:372)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:863)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:782)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.SocketException: Host is down (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:307)
+	... 101 more
+[2018-04-17 00:31:32.821] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-04-17 00:31:32.825] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:31:32.829] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:31:32.830] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:31:32.830] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:31:32.831] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:31:32.833] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-04-17 00:31:32.834] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:31:32.835] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:31:32.835] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:31:32.835] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:31:32.836] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:31:32.852] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:31:32.853] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:31:32.854] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:31:32.853] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 00:31:32.854] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 00:31:32.853] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:31:32.855] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:31:32.856] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:31:32.858] [main] [ERROR] [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302a07d] to prepare test instance [com.dongfang.client.zhongxin.employee.EmployeeServiceTest@5cdd09b1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-employee/target/classes/com/dongfang/client/zhongxin/employee/service/impl/EmployeeServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1037)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:983)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 31 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1030)
+	... 47 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl.<init>(EmployeeServiceImpl.java:14)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 49 more
+[2018-04-17 00:38:39.955] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:38:40.035] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 00:38:40.038] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:38:40.039] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:38:40.039] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 00:38:40.050] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 00:38:40.055] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 00:38:40.058] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 00:38:40.060] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 00:38:40.078] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 00:39:55.328] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:39:55.329] [main] [ERROR] [org.hibernate.tool.hbm2ddl.SchemaExport] - schema export unsuccessful
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:357)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:346)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:83)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:372)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:863)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:782)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:307)
+	... 101 more
+[2018-04-17 00:39:55.344] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-04-17 00:39:55.350] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:39:55.354] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:39:55.355] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:39:55.355] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:39:55.355] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:39:55.358] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-04-17 00:39:55.359] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:39:55.360] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:39:55.360] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:39:55.360] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:39:55.360] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:39:55.377] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:39:55.378] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:39:55.378] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 00:39:55.378] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:39:55.379] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:39:55.380] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 00:39:55.380] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:39:55.383] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:39:55.384] [main] [ERROR] [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@302a07d] to prepare test instance [com.dongfang.client.zhongxin.employee.EmployeeServiceTest@5cdd09b1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeService' defined in file [/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-employee/target/classes/com/dongfang/client/zhongxin/employee/service/impl/EmployeeServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1037)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:983)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 31 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1030)
+	... 47 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.dongfang.client.zhongxin.commons cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	The import com.dongfang.client.zhongxin.employee.dao cannot be resolved
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	Employee cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	IDGeneratorUtils cannot be resolved
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	Employee cannot be resolved to a type
+	The method generateEntity(EmployeeVO) from the type EmployeeBeanCopierUtil refers to the missing type Employee
+	EmployeeDAO cannot be resolved to a type
+	EmployeeDAO cannot be resolved to a type
+
+	at com.dongfang.client.zhongxin.employee.service.impl.EmployeeServiceImpl.<init>(EmployeeServiceImpl.java:14)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 49 more
+[2018-04-17 00:50:50.830] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:50:50.913] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 00:50:50.920] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:50:50.920] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 00:50:50.920] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 00:50:50.929] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 00:50:50.937] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 00:50:50.937] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 00:50:50.937] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 00:50:50.952] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 00:52:06.185] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 00:52:06.187] [main] [ERROR] [org.hibernate.tool.hbm2ddl.SchemaExport] - schema export unsuccessful
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:357)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:346)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:83)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:372)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:863)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:782)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:307)
+	... 101 more
+[2018-04-17 00:52:06.203] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-04-17 00:52:06.209] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:52:06.212] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:52:06.212] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:52:06.213] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:52:06.213] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 00:52:06.216] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-04-17 00:52:06.217] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:52:06.217] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:52:06.218] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 00:52:06.218] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:52:06.218] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-04-17 00:52:06.398] [main] [INFO] [com.dongfang.client.zhongxin.employee.EmployeeServiceTest] - Table creates Successfully
+[2018-04-17 00:52:06.405] [Thread-3] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:52:06.406] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 00:52:06.406] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:52:06.406] [Thread-3] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 00:52:06.407] [Thread-3] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 00:52:06.407] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 00:52:06.408] [Thread-3] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 00:52:06.407] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 01:03:30.166] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 01:03:30.228] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 01:03:30.231] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 01:03:30.231] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 01:03:30.231] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 01:03:30.237] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 01:03:30.240] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 01:03:30.241] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 01:03:30.241] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 01:03:30.254] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 01:04:46.321] [main] [ERROR] [org.hibernate.util.JDBCExceptionReporter] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[2018-04-17 01:04:46.322] [main] [ERROR] [org.hibernate.tool.hbm2ddl.SchemaExport] - schema export unsuccessful
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:357)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2479)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2516)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2301)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:346)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:83)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:372)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:863)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:782)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:120)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:248)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:307)
+	... 101 more
+[2018-04-17 01:04:46.331] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-04-17 01:04:46.335] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 01:04:46.339] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:04:46.339] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 01:04:46.339] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:04:46.340] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:04:46.341] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-04-17 01:04:46.342] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 01:04:46.342] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:04:46.343] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 01:04:46.343] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:04:46.343] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:04:46.503] [main] [INFO] [com.dongfang.client.zhongxin.employee.EmployeeServiceTest] - Table creates Successfully
+[2018-04-17 01:04:46.508] [Thread-3] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 01:04:46.511] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 01:04:46.511] [Thread-3] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 01:04:46.509] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 01:04:46.512] [Thread-3] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 01:04:46.512] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 01:04:46.512] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 01:04:46.512] [Thread-3] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 01:05:43.560] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-04-17 01:05:43.562] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 01:05:43.562] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-04-17 01:05:43.562] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-04-17 01:05:43.568] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-04-17 01:05:43.571] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-04-17 01:05:43.571] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-04-17 01:05:43.571] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-04-17 01:05:43.575] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-04-17 01:05:43.849] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-04-17 01:05:43.852] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-04-17 01:05:43.855] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:05:43.856] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 01:05:43.856] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:05:43.856] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-04-17 01:05:43.858] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-04-17 01:05:43.859] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 01:05:43.859] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:05:43.859] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-04-17 01:05:43.859] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:05:43.859] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-04-17 01:05:43.976] [main] [INFO] [com.dongfang.client.zhongxin.employee.EmployeeServiceTest] - Table creates Successfully
+[2018-04-17 01:05:43.985] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 01:05:43.986] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 01:05:43.986] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-04-17 01:05:43.986] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-04-17 01:05:43.986] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 01:05:43.987] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-04-17 01:05:43.986] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-04-17 01:05:43.986] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data

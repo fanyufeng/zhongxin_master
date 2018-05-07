@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
   * @ClassName: ResponseDataModel
   * @Description: 响应信息模型
-  * @author heliqiang@xbniao.com
+  * @author fyf820@163.com
   * @date 2016年7月1日 下午4:30:22
   *
 */

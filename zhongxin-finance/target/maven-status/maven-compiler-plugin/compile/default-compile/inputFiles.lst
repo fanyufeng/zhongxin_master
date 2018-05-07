@@ -1,9 +1,0 @@
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/dao/entity/Finance.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/converter/FinanceBeanCopierUtil.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/converter/FinanceEntity2VoConverter.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/dao/FinanceDAO.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/service/FinanceService.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/vo/FinanceVO.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/converter/FinanceVo2EntityConverter.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/dao/impl/FinanceDAOImpl.java
-/Users/fanyufeng/2017/dongfangzhongxin/zhongxin_master/zhongxin-finance/src/main/java/com/dongfang/client/zhongxin/finance/service/impl/FinanceServiceImpl.java
