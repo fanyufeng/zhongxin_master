@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-annex-library/zhongxin-annex-library.iml" filepath="$PROJECT_DIR$/zhongxin-annex-library/zhongxin-annex-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-college/zhongxin-college.iml" filepath="$PROJECT_DIR$/zhongxin-college/zhongxin-college.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-commons/zhongxin-commons.iml" filepath="$PROJECT_DIR$/zhongxin-commons/zhongxin-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-employee/zhongxin-employee.iml" filepath="$PROJECT_DIR$/zhongxin-employee/zhongxin-employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-idea/zhongxin-idea.iml" filepath="$PROJECT_DIR$/zhongxin-idea/zhongxin-idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-leave-message/zhongxin-leave-message.iml" filepath="$PROJECT_DIR$/zhongxin-leave-message/zhongxin-leave-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-leave-message-person/zhongxin-leave-message-person.iml" filepath="$PROJECT_DIR$/zhongxin-leave-message-person/zhongxin-leave-message-person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-leave-message-person-reply/zhongxin-leave-message-person-reply.iml" filepath="$PROJECT_DIR$/zhongxin-leave-message-person-reply/zhongxin-leave-message-person-reply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-leave-message-reply/zhongxin-leave-message-reply.iml" filepath="$PROJECT_DIR$/zhongxin-leave-message-reply/zhongxin-leave-message-reply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-mail-message-code/zhongxin-mail-message-code.iml" filepath="$PROJECT_DIR$/zhongxin-mail-message-code/zhongxin-mail-message-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-master.iml" filepath="$PROJECT_DIR$/zhongxin-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-message-code/zhongxin-message-code.iml" filepath="$PROJECT_DIR$/zhongxin-message-code/zhongxin-message-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-person/zhongxin-person.iml" filepath="$PROJECT_DIR$/zhongxin-person/zhongxin-person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-web/zhongxin-web.iml" filepath="$PROJECT_DIR$/zhongxin-web/zhongxin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-web/zhongxin-web-admin/zhongxin-web-admin.iml" filepath="$PROJECT_DIR$/zhongxin-web/zhongxin-web-admin/zhongxin-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhongxin-web/zhongxin-web-front/zhongxin-web-front.iml" filepath="$PROJECT_DIR$/zhongxin-web/zhongxin-web-front/zhongxin-web-front.iml" />
+    </modules>
+  </component>
+</project>

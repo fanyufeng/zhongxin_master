@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="zhongxin-web-front">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
         <dependent-module archiveName="zhongxin-commons-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-commons/zhongxin-commons">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="zhongxin-employee-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-employee/zhongxin-employee">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="zhongxin-idea-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-idea/zhongxin-idea">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="zhongxin-person-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-person/zhongxin-person">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-college-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-college/zhongxin-college">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-message-code-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-message-code/zhongxin-message-code">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-employee-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-employee/zhongxin-employee">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-annex-library-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-annex-library/zhongxin-annex-library">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-mail-message-code-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-mail-message-code/zhongxin-mail-message-code">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-leave-message-reply-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-leave-message-reply/zhongxin-leave-message-reply">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-leave-message-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-leave-message/zhongxin-leave-message">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-leave-message-person.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-leave-message-person/zhongxin-leave-message-person">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zhongxin-leave-message-person-reply.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zhongxin-leave-message-person-reply/zhongxin-leave-message-person-reply">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="zhongxin-web-front"/>

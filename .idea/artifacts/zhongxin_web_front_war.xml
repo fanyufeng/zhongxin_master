@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhongxin-web-front:war">
+    <output-path>$PROJECT_DIR$/zhongxin-web/zhongxin-web-front/target</output-path>
+    <root id="archive" name="zhongxin-web-front-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zhongxin-web-front:war exploded" />
+    </root>
+  </artifact>
+</component>

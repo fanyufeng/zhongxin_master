@@ -82,7 +82,6 @@ public class PersonServiceTest extends
 		try {
 			List<PersonVO> personVO = new ArrayList<PersonVO>();
 			String company ="duode";
-			personVO =personService.getStaffList(company);
 			
 			LOGGER.info("员工修改成功,{}", personVO.toString());
 		} catch (Exception e) {

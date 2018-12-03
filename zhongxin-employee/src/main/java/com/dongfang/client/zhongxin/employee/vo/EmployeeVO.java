@@ -35,6 +35,7 @@ public class EmployeeVO implements Serializable {
 	  * @Fields unionId : 微信识别标示
 	  */
 	public String unionId;
+	public String email;
 	
 	/**
 	  * @Fields openid : 用户唯一标识
@@ -63,6 +64,10 @@ public class EmployeeVO implements Serializable {
 	  * @Fields nickName : 用户昵称
 	  */
 	public String nickName;
+	/**
+	  * @Fields introduction : 用户简介
+	  */
+	public String introduction;
 	
 	/**
 	  * @Fields college : 学校
@@ -129,12 +134,30 @@ public class EmployeeVO implements Serializable {
 	
 	
 
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public String getCollege() {
 		return college;
 	}
 
 	public void setCollege(String college) {
 		this.college = college;
+	}
+	
+	
+
+	public String getIntroduction() {
+		return introduction;
+	}
+
+	public void setIntroduction(String introduction) {
+		this.introduction = introduction;
 	}
 
 	public String getPassword() {
@@ -190,8 +213,13 @@ public class EmployeeVO implements Serializable {
 	@Override
 	public String toString() {
 		return "EmployeeVO [id=" + id + ", name=" + name + ", telephone=" + telephone + ", unionId=" + unionId
-				+ ", openid=" + openid + ", gender=" + gender + ", password=" + password + ", sessionKey=" + sessionKey
-				+ ", avatarUrl=" + avatarUrl + ", nickName=" + nickName + ", college=" + college + ", createDate="
-				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
+				+ ", email=" + email + ", openid=" + openid + ", gender=" + gender + ", password=" + password
+				+ ", sessionKey=" + sessionKey + ", avatarUrl=" + avatarUrl + ", nickName=" + nickName
+				+ ", introduction=" + introduction + ", college=" + college + ", createDate=" + createDate
+				+ ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
+
+	
+
+	
 }

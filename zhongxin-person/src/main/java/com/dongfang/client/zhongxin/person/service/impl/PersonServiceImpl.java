@@ -42,42 +42,9 @@ public class PersonServiceImpl implements PersonService {
 	}
 	
 
-	
-	public List<PersonVO> getStaffList(String companyId)
-			throws Exception{
+	public List<PersonVO>  getByPersonList(int currentPage, int pageSize) throws Exception{
 		try {
-			List<Person> propertyList = personDAO.getByCompanyId(companyId);
-			if(CollectionUtils.isNotEmpty(propertyList)) {
-				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
-				for(Person property : propertyList) {
-					propertyVOList.add(PersonBeanCopierUtil.generateVO(property));
-				}
-				return propertyVOList;
-			} else {
-				return null;
-			}
-		} catch (Exception e) {
-			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
-					companyId,
-					ExceptionUtils.getFullStackTrace(e));
-			throw e;
-		}
-		
-	}
-	
-
-
-
-	
-
-
-	
-
-	
-	public List<PersonVO>  getByCompanyId(String companyId) throws Exception{
-		try {
-			List<Person> propertyList=new ArrayList<Person>();
-			propertyList = personDAO.getByCompanyId(companyId);
+			List<Person> propertyList = personDAO.getByPersonList(currentPage, pageSize);
 			if(CollectionUtils.isNotEmpty(propertyList)) {
 				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
 				for(Person property : propertyList) {
@@ -89,13 +56,84 @@ public class PersonServiceImpl implements PersonService {
 			}
 			
 		} catch (Exception e) {
-			LOGGER.error("PersonServiceImpl#getByDepartment({}, {}) : {}", 
-					companyId,
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
 					ExceptionUtils.getFullStackTrace(e));
 			throw e;
 		}
 		
 	}
+	
+	public List<PersonVO>  getByStatus(int status) throws Exception{
+		try {
+			List<Person> propertyList = personDAO.getByStatus(status);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
+				for(Person property : propertyList) {
+					propertyVOList.add(PersonBeanCopierUtil.generateVO(property));
+				}
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+
+	public List<PersonVO>  getByCategory(String category, int currentPage, int pageSize) throws Exception{
+		try {
+			List<Person> propertyList = personDAO.getByCategory(category, currentPage, pageSize);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
+				for(Person property : propertyList) {
+					propertyVOList.add(PersonBeanCopierUtil.generateVO(property));
+				}
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	public List<PersonVO>  getByCreaterId(String createrId) throws Exception{
+		try {
+			List<Person> propertyList = personDAO.getByCreaterId(createrId);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
+				for(Person property : propertyList) {
+					propertyVOList.add(PersonBeanCopierUtil.generateVO(property));
+				}
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+
+	
+
+
+	
+
+	
+	
 	public String save(PersonVO personVO) throws Exception {
 		try {
 			personVO.setId(IDGeneratorUtils.uuid32());
@@ -123,30 +161,7 @@ public class PersonServiceImpl implements PersonService {
 	}
 	
 	
-	public PersonVO getByUnionId(String unionId) throws Exception{
-		try {
-			PersonVO userTelephone=null;
-			List<Person> propertyList = personDAO.getByunionId(unionId);
-			if(CollectionUtils.isNotEmpty(propertyList)) {
-				List<PersonVO> propertyVOList = new ArrayList<PersonVO>();
-				for(Person property : propertyList) {
-					propertyVOList.add(PersonBeanCopierUtil.generateVO(property));
-				}
-				for(PersonVO u:propertyVOList){
-					 userTelephone=u;
-				}
-				return userTelephone;
-			} else {
-				return null;
-			}
-		} catch (Exception e) {
-			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
-					unionId,
-					ExceptionUtils.getFullStackTrace(e));
-			throw e;
-		}
-		
-	}
+	
 
 	/**
 	  * @Fields LOGGER : 日志记录工具

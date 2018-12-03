@@ -41,9 +41,95 @@ public class IdeaServiceImpl implements IdeaService {
 		}
 	}
 	
-	public List<IdeaVO>  getByIdeaList() throws Exception{
+	public List<IdeaVO>  getByIdeaList(int currentPage,int pageSize) throws Exception{
 		try {
-			List<Idea> propertyList = ideaDAO.getByIdeaList();
+			List<Idea> propertyList = ideaDAO.getByIdeaList(currentPage,pageSize);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<IdeaVO> propertyVOList = new ArrayList<IdeaVO>();
+				for(Idea property : propertyList) {
+					propertyVOList.add(IdeaBeanCopierUtil.generateVO(property));
+				}
+				
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	public List<IdeaVO>  getByStatus(int status) throws Exception{
+		try {
+			List<Idea> propertyList = ideaDAO.getByStatus(status);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<IdeaVO> propertyVOList = new ArrayList<IdeaVO>();
+				for(Idea property : propertyList) {
+					propertyVOList.add(IdeaBeanCopierUtil.generateVO(property));
+				}
+				
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	public List<IdeaVO>  getByCategory(String category, int currentPage, int pageSize) throws Exception{
+		try {
+			List<Idea> propertyList = ideaDAO.getByCategory(category, currentPage, pageSize);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<IdeaVO> propertyVOList = new ArrayList<IdeaVO>();
+				for(Idea property : propertyList) {
+					propertyVOList.add(IdeaBeanCopierUtil.generateVO(property));
+				}
+				
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	public List<IdeaVO>  getByCreaterId(String createrId) throws Exception{
+		try {
+			List<Idea> propertyList = ideaDAO.getByCreaterId(createrId);
+			if(CollectionUtils.isNotEmpty(propertyList)) {
+				List<IdeaVO> propertyVOList = new ArrayList<IdeaVO>();
+				for(Idea property : propertyList) {
+					propertyVOList.add(IdeaBeanCopierUtil.generateVO(property));
+				}
+				
+				return propertyVOList;
+			} else {
+				return null;
+			}
+			
+		} catch (Exception e) {
+			LOGGER.error("CustomPropertyServiceImpl#getList({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	public List<IdeaVO>  getByRecipientId(String recipientId) throws Exception{
+		try {
+			List<Idea> propertyList = ideaDAO.getByRecipientId(recipientId);
 			if(CollectionUtils.isNotEmpty(propertyList)) {
 				List<IdeaVO> propertyVOList = new ArrayList<IdeaVO>();
 				for(Idea property : propertyList) {

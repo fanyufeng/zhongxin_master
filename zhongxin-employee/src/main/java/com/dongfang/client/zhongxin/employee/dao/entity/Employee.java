@@ -47,6 +47,8 @@ public class Employee implements Serializable{
 	  * @Fields openid : 用户唯一标识
 	  */
 	public String openid;
+	public String email;
+	
 	
 	/**
 	  * @Fields gender : 性别
@@ -75,6 +77,11 @@ public class Employee implements Serializable{
 	  * @Fields avatarUrl : 头像地址
 	  */
 	public String avatarUrl;
+	
+	/**
+	  * @Fields introduction : 用户简介
+	  */
+	public String introduction;
 	
 	/**
 	  * @Fields createDate : 创建时间
@@ -126,6 +133,14 @@ public class Employee implements Serializable{
 	}
 	
 	
+	@Column(name="email")
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	@Column(name ="avatar_url")
 	public String getAvatarUrl() {
@@ -153,6 +168,16 @@ public class Employee implements Serializable{
 
 	public void setCollege(String college) {
 		this.college = college;
+	}
+	
+	
+	@Column(name = "introduction")
+	public String getIntroduction() {
+		return introduction;
+	}
+
+	public void setIntroduction(String introduction) {
+		this.introduction = introduction;
 	}
 
 	@Column(name="nick_name")
@@ -218,8 +243,9 @@ public class Employee implements Serializable{
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", telephone=" + telephone + ", unionId=" + unionId
-				+ ", openid=" + openid + ", gender=" + gender + ", college=" + college + ", password=" + password
-				+ ", sessionKey=" + sessionKey + ", nickName=" + nickName + ", avatarUrl=" + avatarUrl + ", createDate="
-				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
-	}
+				+ ", openid=" + openid + ", email=" + email + ", gender=" + gender + ", college=" + college
+				+ ", password=" + password + ", sessionKey=" + sessionKey + ", nickName=" + nickName + ", avatarUrl="
+				+ avatarUrl + ", introduction=" + introduction + ", createDate=" + createDate + ", lastUpdateDate="
+				+ lastUpdateDate + "]";
+	}	
 }

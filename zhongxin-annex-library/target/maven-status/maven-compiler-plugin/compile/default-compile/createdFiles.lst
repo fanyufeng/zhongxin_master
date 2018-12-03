@@ -1,0 +1,9 @@
+com/dongfang/client/zhongxin/annex/library/dao/impl/AnnexLibraryDAOImpl.class
+com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryBeanCopierUtil.class
+com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryVo2EntityConverter.class
+com/dongfang/client/zhongxin/annex/library/dao/entity/AnnexLibrary.class
+com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryEntity2VoConverter.class
+com/dongfang/client/zhongxin/annex/library/dao/AnnexLibraryDAO.class
+com/dongfang/client/zhongxin/annex/library/service/impl/AnnexLibraryServiceImpl.class
+com/dongfang/client/zhongxin/annex/library/vo/AnnexLibraryVO.class
+com/dongfang/client/zhongxin/annex/library/service/AnnexLibraryService.class

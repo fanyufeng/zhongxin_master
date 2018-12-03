@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhongxin-annex-library" />
+        <module name="zhongxin-college" />
+        <module name="zhongxin-commons" />
+        <module name="zhongxin-employee" />
+        <module name="zhongxin-idea" />
+        <module name="zhongxin-leave-message" />
+        <module name="zhongxin-leave-message-person" />
+        <module name="zhongxin-leave-message-person-reply" />
+        <module name="zhongxin-leave-message-reply" />
+        <module name="zhongxin-mail-message-code" />
+        <module name="zhongxin-message-code" />
+        <module name="zhongxin-person" />
+        <module name="zhongxin-web-admin" />
+        <module name="zhongxin-web-front" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhongxin-annex-library" target="1.5" />
+      <module name="zhongxin-college" target="1.5" />
+      <module name="zhongxin-commons" target="1.5" />
+      <module name="zhongxin-employee" target="1.5" />
+      <module name="zhongxin-idea" target="1.5" />
+      <module name="zhongxin-leave-message" target="1.5" />
+      <module name="zhongxin-leave-message-person" target="1.5" />
+      <module name="zhongxin-leave-message-person-reply" target="1.5" />
+      <module name="zhongxin-leave-message-reply" target="1.5" />
+      <module name="zhongxin-mail-message-code" target="1.5" />
+      <module name="zhongxin-master" target="1.5" />
+      <module name="zhongxin-message-code" target="1.5" />
+      <module name="zhongxin-person" target="1.5" />
+      <module name="zhongxin-web" target="1.5" />
+      <module name="zhongxin-web-admin" target="1.5" />
+      <module name="zhongxin-web-front" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

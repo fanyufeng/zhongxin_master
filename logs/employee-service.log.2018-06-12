@@ -1,0 +1,120 @@
+[2018-06-12 22:40:59.443] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-06-12 22:40:59.449] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:40:59.449] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:40:59.450] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-06-12 22:40:59.459] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-06-12 22:40:59.462] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-06-12 22:40:59.462] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-06-12 22:40:59.462] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-06-12 22:40:59.471] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-06-12 22:40:59.974] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-06-12 22:40:59.978] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:40:59.983] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:40:59.984] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:40:59.985] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:40:59.985] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:40:59.988] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-06-12 22:40:59.988] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:40:59.990] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:40:59.991] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:40:59.991] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:40:59.991] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:00.287] [main] [INFO] [com.dongfang.client.zhongxin.leave.message.LeaveMessageServiceTest] - Table creates Successfully
+[2018-06-12 22:41:00.294] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:00.294] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:00.295] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:00.294] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:00.295] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:00.295] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:00.296] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:00.296] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:05.095] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-06-12 22:41:05.099] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:05.099] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:05.100] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-06-12 22:41:05.109] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-06-12 22:41:05.113] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-06-12 22:41:05.113] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-06-12 22:41:05.113] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-06-12 22:41:05.121] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-06-12 22:41:05.516] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-06-12 22:41:05.522] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:05.527] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:05.528] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:05.528] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:05.528] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:05.530] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-06-12 22:41:05.530] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:05.532] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:05.532] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:05.534] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:05.534] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:05.731] [main] [INFO] [com.dongfang.client.zhongxin.leave.message.reply.LeaveMessageReplyServiceTest] - Table creates Successfully
+[2018-06-12 22:41:05.743] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:05.743] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:05.743] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:05.743] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:05.743] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:05.744] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:05.744] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:05.744] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:08.876] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-06-12 22:41:08.879] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:08.879] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:08.880] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-06-12 22:41:08.888] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-06-12 22:41:08.892] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-06-12 22:41:08.892] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-06-12 22:41:08.892] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-06-12 22:41:08.897] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-06-12 22:41:09.344] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-06-12 22:41:09.349] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:09.354] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:09.356] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:09.356] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:09.357] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:09.359] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-06-12 22:41:09.360] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:09.361] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:09.361] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:09.361] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:09.361] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:09.599] [main] [INFO] [com.dongfang.client.zhongxin.leave.message.person.LeaveMessagePersonServiceTest] - Table creates Successfully
+[2018-06-12 22:41:09.609] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:09.609] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:09.609] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:09.609] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:09.610] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:09.610] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:09.610] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:09.610] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:13.105] [main] [DEBUG] [net.sf.ehcache.CacheManager] - Configuring ehcache from classpath.
+[2018-06-12 22:41:13.108] [main] [WARN] [net.sf.ehcache.config.ConfigurationFactory] - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:13.109] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from URL: jar:file:/Users/fanyufeng/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2018-06-12 22:41:13.109] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationFactory] - Configuring ehcache from InputStream
+[2018-06-12 22:41:13.116] [main] [DEBUG] [net.sf.ehcache.config.DiskStoreConfiguration] - Disk Store Path: /var/folders/zc/64cyhsf50_xc2zfwrxbgqq6m0000gn/T/
+[2018-06-12 22:41:13.119] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CacheManagerEventListenerFactory class specified. Skipping...
+[2018-06-12 22:41:13.120] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[2018-06-12 22:41:13.120] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+[2018-06-12 22:41:13.126] [main] [DEBUG] [net.sf.ehcache.config.ConfigurationHelper] - No BootstrapCacheLoaderFactory class specified. Skipping...
+[2018-06-12 22:41:13.529] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[2018-06-12 22:41:13.533] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:13.536] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:13.538] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:13.539] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:13.539] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+[2018-06-12 22:41:13.542] [main] [WARN] [net.sf.ehcache.hibernate.EhCacheProvider] - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[2018-06-12 22:41:13.542] [main] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting data file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:13.543] [main] [DEBUG] [net.sf.ehcache.store.MemoryStore] - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:13.543] [main] [DEBUG] [net.sf.ehcache.store.LruMemoryStore] - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+[2018-06-12 22:41:13.543] [main] [DEBUG] [net.sf.ehcache.Cache] - Initialised cache: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:13.544] [main] [DEBUG] [net.sf.ehcache.hibernate.EhCacheProvider] - started EHCache region: org.hibernate.cache.StandardQueryCache
+[2018-06-12 22:41:13.755] [main] [INFO] [com.dongfang.client.zhongxin.leave.message.person.reply.LeaveMessagePersonReplyServiceTest] - Table creates Successfully
+[2018-06-12 22:41:13.764] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.StandardQueryCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:13.764] [Store org.hibernate.cache.StandardQueryCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:13.764] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.StandardQueryCache.data
+[2018-06-12 22:41:13.764] [Store org.hibernate.cache.StandardQueryCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.StandardQueryCacheCache: Expiry thread interrupted on Disk Store.
+[2018-06-12 22:41:13.765] [Thread-2] [DEBUG] [net.sf.ehcache.store.MemoryStore] - org.hibernate.cache.UpdateTimestampsCache is persistent. Spooling 0 elements to the disk store.
+[2018-06-12 22:41:13.765] [Thread-2] [DEBUG] [net.sf.ehcache.store.DiskStore] - Deleting file org.hibernate.cache.UpdateTimestampsCache.data
+[2018-06-12 22:41:13.765] [Store org.hibernate.cache.UpdateTimestampsCache Spool Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - Spool Thread interrupted.
+[2018-06-12 22:41:13.765] [Store org.hibernate.cache.UpdateTimestampsCache Expiry Thread] [DEBUG] [net.sf.ehcache.store.DiskStore] - org.hibernate.cache.UpdateTimestampsCacheCache: Expiry thread interrupted on Disk Store.

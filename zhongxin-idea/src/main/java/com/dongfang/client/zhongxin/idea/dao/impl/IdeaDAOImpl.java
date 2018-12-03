@@ -28,13 +28,81 @@ public class IdeaDAOImpl extends BaseDao<Idea> implements IdeaDAO {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<Idea> getByIdeaList() throws Exception{
+	public List<Idea> getByIdeaList(int currentPage,int pageSize) throws Exception{
 		try {	
-			String queryString = "from Idea idea";
+			String queryString = "from Idea idea order by createDate desc";
 			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setFirstResult((currentPage-1)*pageSize);
+			query.setMaxResults(pageSize);
 			return query.list();
 		} catch (Exception e) {
 			LOGGER.error("IdeaDAOImpl#getListIdea({}, {}) : {}", 
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Idea> getByStatus(int status) throws Exception{
+		try {	
+			String queryString = "from Idea idea where idea.status = :status ";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("status",status);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					status,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Idea> getByCategory(String category,int currentPage,int pageSize) throws Exception{
+		try {	
+			String queryString = "from Idea idea where idea.category = :category order by createDate desc";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setFirstResult((currentPage-1)*pageSize);
+			query.setMaxResults(pageSize);
+			query.setParameter("category",category);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					category,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Idea> getByCreaterId(String createrId) throws Exception{
+		try {	
+			String queryString = "from Idea idea where idea.createrId = :createrId order by createDate desc";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("createrId",createrId);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					createrId,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Idea> getByRecipientId(String recipientId) throws Exception{
+		try {	
+			String queryString = "from Idea idea where idea.recipientId = :recipientId order by createDate desc";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("recipientId",recipientId);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					recipientId,
 					ExceptionUtils.getFullStackTrace(e));
 			throw e;
 		}

@@ -40,6 +40,9 @@ public class LoginFilter implements Filter{
 				!uriStr.equals("/") &&		
 				!uriStr.equals("/zhongxin-web-front/employee/login") &&
 				!uriStr.equals("/zhongxin-web-front/employee/loginUnion") &&
+				!uriStr.equals("/zhongxin-web-front/personAnnexLibrary/fileSave") &&
+				!uriStr.equals("/zhongxin-web-front/college/save") &&
+				!uriStr.equals("/zhongxin-web-front/mail/sendMailCode") &&
 				obj == null){
 					ResponseDataModel resDataModel = new ResponseDataModel();
 					resDataModel.setStatusCode(ApiStatusCode.ACCESS_DENY.value());

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/zhongxin-annex-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-college" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-employee" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-idea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-leave-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-leave-message-person" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-leave-message-person-reply" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-leave-message-reply" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-mail-message-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-message-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-person" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhongxin-web/zhongxin-web-admin" charset="UTF-8" />
+  </component>
+</project>

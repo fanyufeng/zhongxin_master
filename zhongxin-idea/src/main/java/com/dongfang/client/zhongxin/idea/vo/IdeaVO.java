@@ -31,11 +31,26 @@ public class IdeaVO implements Serializable {
 	  */
 	public String content;
 	
+	/**
+	  * @Fields category : 1 表示帮我取快递2表示帮我办事情
+	  */
+	public String category;
+	
 	
 	/**
 	  * @Fields creater : 创建人
 	  */
 	public String creater;
+	
+	/**
+	  * @Fields pickUp : 取件凭证
+	  */
+	public String pickUp;
+	
+	/**
+	  * @Fields contact : 联系方式
+	  */
+	public String contact;
 	
 	/**
 	  * @Fields createrId : 创建人Id
@@ -99,6 +114,16 @@ public class IdeaVO implements Serializable {
 		this.creater = creater;
 	}
 
+	
+	
+	public String getContact() {
+		return contact;
+	}
+
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+
 	public String getCreaterId() {
 		return createrId;
 	}
@@ -114,6 +139,16 @@ public class IdeaVO implements Serializable {
 	public void setStatus(int status) {
 		this.status = status;
 	}
+	
+	
+
+	public String getPickUp() {
+		return pickUp;
+	}
+
+	public void setPickUp(String pickUp) {
+		this.pickUp = pickUp;
+	}
 
 	public String getRecipient() {
 		return recipient;
@@ -121,6 +156,16 @@ public class IdeaVO implements Serializable {
 
 	public void setRecipient(String recipient) {
 		this.recipient = recipient;
+	}
+	
+	
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
 	}
 
 	public String getRecipientId() {
@@ -149,11 +194,17 @@ public class IdeaVO implements Serializable {
 
 	@Override
 	public String toString() {
-		return "IdeaVO [id=" + id + ", title=" + title + ", content=" + content + ", creater=" + creater
-				+ ", createrId=" + createrId + ", status=" + status + ", recipient=" + recipient + ", recipientId="
-				+ recipientId + ", createDate=" + createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
+		return "IdeaVO [id=" + id + ", title=" + title + ", content=" + content + ", category=" + category
+				+ ", creater=" + creater + ", pickUp=" + pickUp + ", contact=" + contact + ", createrId=" + createrId
+				+ ", status=" + status + ", recipient=" + recipient + ", recipientId=" + recipientId + ", createDate="
+				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
 
+	
+
+	
+
+	
 	
 
 	

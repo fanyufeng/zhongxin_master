@@ -45,6 +45,12 @@ public class Person implements Serializable{
 	public String creater;
 	
 	/**
+	  * @Fields category : 1表示失物招领，2表示跳蚤市场，3个人心情
+	  */
+	public String category;
+	
+	
+	/**
 	  * @Fields createrId : 创建人Id
 	  */
 	public String createrId;
@@ -105,6 +111,16 @@ public class Person implements Serializable{
 	public void setCreater(String creater) {
 		this.creater = creater;
 	}
+	
+	
+	@Column(name = "category")
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
 
 	@Column(name="creater_id")
 	public String getCreaterId() {
@@ -148,8 +164,10 @@ public class Person implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", title=" + title + ", content=" + content + ", creater=" + creater
-				+ ", createrId=" + createrId + ", status=" + status + ", createDate=" + createDate + ", lastUpdateDate="
-				+ lastUpdateDate + "]";
+		return "Person [id=" + id + ", title=" + title + ", content=" + content + ", creater=" + creater + ", category="
+				+ category + ", createrId=" + createrId + ", status=" + status + ", createDate=" + createDate
+				+ ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
+
+	
 }

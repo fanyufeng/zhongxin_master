@@ -27,15 +27,7 @@ public interface PersonDAO {
 	  */
 	public Person getById(String id) throws Exception;
 	
-	
-	
-	/**
-	  * 根据companyId获取员工信息,查询账号是否重复
-	  * @param email  员工邮箱
-	  * @return
-	  * @throws Exception 
-	  */
-	public List<Person> getByCompanyId(String companyId) throws Exception;
+	public List<Person> getByPersonList(int currentPage, int pageSize) throws Exception;
 	
 	/**
 	  * 保存员工信息
@@ -44,15 +36,13 @@ public interface PersonDAO {
 	  */
 	
 	public String save(Person person) throws Exception;
-	
+	public List<Person> getByStatus(int status) throws Exception;
+	public List<Person> getByCategory(String category, int currentPage, int pageSize) throws Exception;
+	public List<Person> getByCreaterId(String createrId) throws Exception;
 	/**
 	  * 修改员工信息
 	  * @param person
 	  * @throws Exception 
 	  */
 	public void update(Person person) throws Exception;
-	
-	public List<Person> getByunionId(String unionId) throws Exception;
-	
-	
 }

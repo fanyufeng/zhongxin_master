@@ -6,6 +6,11 @@
 		<project>zhongxin-employee</project>
 		<project>zhongxin-commons</project>
 		<project>zhongxin-person</project>
+		<project>zhongxin-annex-library</project>
+		<project>zhongxin-college</project>
+		<project>zhongxin-message-code</project>
+		<project>zhongxin-leave-message-person</project>
+		<project>zhongxin-leave-message-person-reply</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

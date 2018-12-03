@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.dongfang.client.zhongxin.idea.IdeaServiceTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.373 sec
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.297 sec

@@ -29,8 +29,12 @@ public interface IdeaDAO {
 	
 	
 	
-	public List<Idea> getByIdeaList() throws Exception;
+	public List<Idea> getByIdeaList(int currentPage,int pageSize) throws Exception;
 	
+	public List<Idea> getByStatus(int status) throws Exception;
+	public List<Idea> getByCategory(String category,int currentPage,int pageSize) throws Exception;
+	public List<Idea> getByCreaterId(String createrId) throws Exception;
+	public List<Idea> getByRecipientId(String recipientId) throws Exception;
 	/**
 	  * 保存员工信息
 	  * @param idea

@@ -20,8 +20,11 @@ public interface IdeaService {
 	  */
 	public IdeaVO getById(String id) throws Exception;
 
-	public List<IdeaVO>  getByIdeaList() throws Exception;
-
+	public List<IdeaVO>  getByIdeaList(int currentPage, int pageSize) throws Exception;
+	public List<IdeaVO>  getByStatus(int status) throws Exception;
+	public List<IdeaVO>  getByCategory(String category, int currentPage, int pageSize) throws Exception;
+	public List<IdeaVO>  getByCreaterId(String createrId) throws Exception;
+	public List<IdeaVO>  getByRecipientId(String recipientId) throws Exception;
 
 
 	/**

@@ -1,0 +1,9 @@
+com/dongfang/client/zhongxin/college/dao/CollegeDAO.class
+com/dongfang/client/zhongxin/college/converter/CollegeBeanCopierUtil.class
+com/dongfang/client/zhongxin/college/dao/entity/College.class
+com/dongfang/client/zhongxin/college/vo/CollegeVO.class
+com/dongfang/client/zhongxin/college/converter/CollegeVo2EntityConverter.class
+com/dongfang/client/zhongxin/college/service/CollegeService.class
+com/dongfang/client/zhongxin/college/converter/CollegeEntity2VoConverter.class
+com/dongfang/client/zhongxin/college/dao/impl/CollegeDAOImpl.class
+com/dongfang/client/zhongxin/college/service/impl/CollegeServiceImpl.class

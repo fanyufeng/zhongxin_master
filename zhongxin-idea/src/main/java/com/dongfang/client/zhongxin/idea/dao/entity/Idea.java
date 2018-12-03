@@ -37,6 +37,20 @@ public class Idea implements Serializable{
 	  * @Fields content : 项目内容
 	  */
 	public String content;
+	/**
+	  * @Fields category : 1 表示帮我取快递2表示帮我办事情
+	  */
+	public String category;
+	
+	/**
+	  * @Fields contact : 联系方式
+	  */
+	public String contact;
+	
+	/**
+	  * @Fields pickUp : 取件凭证
+	  */
+	public String pickUp;
 	
 	
 	/**
@@ -107,6 +121,26 @@ public class Idea implements Serializable{
 	public void setContent(String content) {
 		this.content = content;
 	}
+	
+	
+	
+	@Column(name = "contact")
+	public String getContact() {
+		return contact;
+	}
+
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+
+	@Column(name = "category")
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
 
 	@Column(name ="creater")
 	public String getCreater() {
@@ -124,6 +158,16 @@ public class Idea implements Serializable{
 
 	public void setCreaterId(String createrId) {
 		this.createrId = createrId;
+	}
+	
+	
+	@Column(name = "pick_up")
+	public String getPickUp() {
+		return pickUp;
+	}
+
+	public void setPickUp(String pickUp) {
+		this.pickUp = pickUp;
 	}
 
 	@Column(name ="status")
@@ -177,10 +221,18 @@ public class Idea implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Idea [id=" + id + ", title=" + title + ", content=" + content + ", creater=" + creater + ", createrId="
-				+ createrId + ", status=" + status + ", recipient=" + recipient + ", recipientId=" + recipientId
-				+ ", createDate=" + createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
+		return "Idea [id=" + id + ", title=" + title + ", content=" + content + ", category=" + category + ", contact="
+				+ contact + ", pickUp=" + pickUp + ", creater=" + creater + ", createrId=" + createrId + ", status="
+				+ status + ", recipient=" + recipient + ", recipientId=" + recipientId + ", createDate=" + createDate
+				+ ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
+
+	
+	
+
+	
+
+	
 
 	
 }

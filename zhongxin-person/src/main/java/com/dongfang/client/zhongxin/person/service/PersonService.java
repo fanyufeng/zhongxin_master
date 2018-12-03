@@ -27,23 +27,13 @@ public interface PersonService {
 	
 
 	
-	/**
-	  * 根据company获取员工信息列表
-	  * @param company  员工所属公司
-	  * @return
-	  * @throws Exception 
-	  */
-	public List<PersonVO> getStaffList(String companyId)throws Exception;
 	
-	public PersonVO getByUnionId(String unionId) throws Exception;
-
-	/**
-	  * 根据companyId获取员工信息列表
-	  * @param company  员工所属公司
-	  * @return
-	  * @throws Exception 
-	  */
-	public List<PersonVO>  getByCompanyId(String companyId) throws Exception;
+	
+	public List<PersonVO>  getByStatus(int status) throws Exception;
+	public List<PersonVO>  getByPersonList(int currentPage, int pageSize) throws Exception;
+	public List<PersonVO>  getByCategory(String category, int currentPage, int pageSize) throws Exception;
+	public List<PersonVO>  getByCreaterId(String createrId) throws Exception;
+	
 	/**
 	  * 保存员工信息
 	  * @param personVO	员工

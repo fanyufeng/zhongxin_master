@@ -25,9 +25,11 @@ import com.dongfang.client.zhongxin.commons.constants.Constants;
 import com.dongfang.client.zhongxin.commons.enums.ApiStatusCode;
 import com.dongfang.client.zhongxin.employee.service.EmployeeService;
 import com.dongfang.client.zhongxin.employee.vo.EmployeeVO;
+import com.dongfang.client.zhongxin.web.front.request.employee.ShowOtherEmployee;
 import com.dongfang.client.zhongxin.web.front.request.employee.UserLoginRequest;
 import com.dongfang.client.zhongxin.web.front.request.employee.UserRegisterRequest;
 import com.dongfang.client.zhongxin.web.front.response.ResponseDataModel;
+import com.dongfang.client.zhongxin.web.front.response.employee.OtherEmployeeShowResponse;
 
 import net.sf.json.JSONObject;
 
@@ -181,6 +183,37 @@ public class EmployeeController {
 	 * @param response
 	 * @return
 	 */
+	@RequestMapping(value="/updatePersonal",method=RequestMethod.POST)
+	@ResponseBody
+	public ResponseDataModel updatePersonal(@RequestBody EmployeeVO employeeVO) throws Exception{
+		ResponseDataModel resDataModel = new ResponseDataModel();
+		try{
+			
+			EmployeeVO employeeVOModel=employeeService.getById(employeeVO.getId());
+			if(employeeVOModel != null){
+				employeeVOModel.setCollege(employeeVO.getCollege());
+				employeeService.update(employeeVOModel);
+			}
+			EmployeeVO employeeVOModelResult = employeeService.getById(employeeVO.getId());
+			if (employeeVOModelResult != null){
+				resDataModel.setData(employeeVOModelResult);
+			}
+			resDataModel.setStatusCode(ApiStatusCode.SUCCESS.value());
+		}catch(Exception e){
+			logger.error("EmployeeController#save({}) : {}", 
+					employeeVO.toString(),
+					ExceptionUtils.getFullStackTrace(e));
+		}
+		return resDataModel;
+	}
+	
+	/**
+	 *  员工注册
+	 * @param companyGetParameter
+	 * @param request
+	 * @param response
+	 * @return
+	 */
 	@RequestMapping(value="/loginUnion",method=RequestMethod.POST)
 	@ResponseBody
 	public ResponseDataModel login(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request,HttpServletResponse response) throws Exception{
@@ -203,6 +236,7 @@ public class EmployeeController {
 		}
 		return resDataModel;
 	}
+	
 	public static String loadJson (String url) {  
         StringBuilder json = new StringBuilder();  
         try {  
@@ -221,6 +255,70 @@ public class EmployeeController {
         }  
         return json.toString();  
     } 
+	
+	/**
+	 *  更新用户简介(个人资料)
+	 * @param companyGetParameter
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping(value="/updateIntroduction",method=RequestMethod.POST)
+	@ResponseBody
+	public ResponseDataModel updateIntroduction(@RequestBody EmployeeVO employeeVO) throws Exception{
+		ResponseDataModel resDataModel = new ResponseDataModel();
+		try{	
+			
+			EmployeeVO employeeVOModel=employeeService.getById(employeeVO.getId());
+			employeeVOModel.setIntroduction(employeeVO.getIntroduction());;
+			employeeService.update(employeeVOModel);
+			resDataModel.setData(employeeVOModel);
+			resDataModel.setStatusCode(ApiStatusCode.SUCCESS.value());
+		}catch(Exception e){
+			logger.error("EmployeeController#update({}) : {}", 
+					employeeVO.toString(),
+					ExceptionUtils.getFullStackTrace(e));
+		}
+		return resDataModel;
+	}
+	
+	/**
+	 *  显示其他人的个人信息
+	 * @param companyGetParameter
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping(value="/showOtherEmployee",method=RequestMethod.POST)
+	@ResponseBody
+	public ResponseDataModel showOtherEmployee(@RequestBody ShowOtherEmployee showOtherEmployee) throws Exception{
+		ResponseDataModel resDataModel = new ResponseDataModel();
+		try{
+			EmployeeVO employeeVO=employeeService.getById(showOtherEmployee.getSelectedId());
+			OtherEmployeeShowResponse otherEmployeeShowResponse=new OtherEmployeeShowResponse();
+			if(employeeVO!=null){
+				otherEmployeeShowResponse.setCollege(employeeVO.getCollege());
+				otherEmployeeShowResponse.setEmployeeId(employeeVO.getId());
+				otherEmployeeShowResponse.setEmployeeName(employeeVO.getNickName());
+				otherEmployeeShowResponse.setGender(employeeVO.getGender());
+				otherEmployeeShowResponse.setHeadUrl(employeeVO.getAvatarUrl());
+				otherEmployeeShowResponse.setIntroduction(employeeVO.getIntroduction());
+				otherEmployeeShowResponse.setEmail(employeeVO.getEmail());
+			}
+			
+			resDataModel.setData(otherEmployeeShowResponse);
+			resDataModel.setStatusCode(ApiStatusCode.SUCCESS.value());
+		}catch(Exception e){
+			logger.error("EmployeeController#save({}) : {}", 
+					showOtherEmployee.toString(),
+					ExceptionUtils.getFullStackTrace(e));
+		}
+		return resDataModel;
+	}
+	
+	
+	
+	
 	/** 日志统计 */
 	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 	@Autowired

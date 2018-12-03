@@ -1,0 +1,9 @@
+com/dongfang/client/zhongxin/person/converter/PersonVo2EntityConverter.class
+com/dongfang/client/zhongxin/person/service/impl/PersonServiceImpl.class
+com/dongfang/client/zhongxin/person/vo/PersonVO.class
+com/dongfang/client/zhongxin/person/converter/PersonEntity2VoConverter.class
+com/dongfang/client/zhongxin/person/converter/PersonBeanCopierUtil.class
+com/dongfang/client/zhongxin/person/dao/impl/PersonDAOImpl.class
+com/dongfang/client/zhongxin/person/dao/PersonDAO.class
+com/dongfang/client/zhongxin/person/dao/entity/Person.class
+com/dongfang/client/zhongxin/person/service/PersonService.class

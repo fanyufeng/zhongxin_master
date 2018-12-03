@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/dao/entity/LeaveMessage.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/converter/LeaveMessageEntity2VoConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/converter/LeaveMessageBeanCopierUtil.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/converter/LeaveMessageVo2EntityConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/service/LeaveMessageService.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/service/impl/LeaveMessageServiceImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/vo/LeaveMessageVO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/dao/impl/LeaveMessageDAOImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-leave-message/src/main/java/com/dongfang/client/zhongxin/leave/message/dao/LeaveMessageDAO.java

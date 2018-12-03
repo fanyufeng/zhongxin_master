@@ -15,6 +15,14 @@
     <module>zhongxin-web</module>
     <module>zhongxin-idea</module>
     <module>zhongxin-person</module>
+    <module>zhongxin-annex-library</module>
+    <module>zhongxin-college</module>
+    <module>zhongxin-message-code</module>
+    <module>zhongxin-mail-message-code</module>
+    <module>zhongxin-leave-message</module>
+    <module>zhongxin-leave-message-reply</module>
+    <module>zhongxin-leave-message-person</module>
+    <module>zhongxin-leave-message-person-reply</module>
   </modules>
   <properties>
 		<javassist.version>3.15.0-GA</javassist.version>

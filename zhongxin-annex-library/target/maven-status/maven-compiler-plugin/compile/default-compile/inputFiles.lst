@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/dao/entity/AnnexLibrary.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/service/impl/AnnexLibraryServiceImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryBeanCopierUtil.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/service/AnnexLibraryService.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/dao/impl/AnnexLibraryDAOImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryEntity2VoConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/converter/AnnexLibraryVo2EntityConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/dao/AnnexLibraryDAO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-annex-library/src/main/java/com/dongfang/client/zhongxin/annex/library/vo/AnnexLibraryVO.java

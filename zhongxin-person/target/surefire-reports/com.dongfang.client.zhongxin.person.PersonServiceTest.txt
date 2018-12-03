@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.dongfang.client.zhongxin.person.PersonServiceTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.414 sec
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.326 sec

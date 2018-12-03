@@ -46,6 +46,11 @@ public class PersonVO implements Serializable {
 	  */
 	public int status;
 	
+	/**
+	  * @Fields category : 1表示失物招领，2表示跳蚤市场，3个人心情
+	  */
+	public String category;
+	
 	
 
 	/**
@@ -114,6 +119,22 @@ public class PersonVO implements Serializable {
 		this.creater = creater;
 	}
 
+	
+	
+
+
+
+	public String getCategory() {
+		return category;
+	}
+
+
+
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
 
 
 
@@ -176,7 +197,12 @@ public class PersonVO implements Serializable {
 	@Override
 	public String toString() {
 		return "PersonVO [id=" + id + ", title=" + title + ", content=" + content + ", creater=" + creater
-				+ ", createrId=" + createrId + ", status=" + status + ", createDate=" + createDate + ", lastUpdateDate="
-				+ lastUpdateDate + "]";
+				+ ", createrId=" + createrId + ", status=" + status + ", category=" + category + ", createDate="
+				+ createDate + ", lastUpdateDate=" + lastUpdateDate + "]";
 	}
+
+
+
+
+	
 }

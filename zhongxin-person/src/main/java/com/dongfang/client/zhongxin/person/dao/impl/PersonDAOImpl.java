@@ -28,15 +28,15 @@ public class PersonDAOImpl extends BaseDao<Person> implements PersonDAO {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<Person> getByCompanyId(String companyId) throws Exception{
+	public List<Person> getByPersonList(int currentPage, int pageSize) throws Exception{
 		try {	
-			String queryString = "from Person person where person.companyId = :companyId ";
+			String queryString = "from Person person order by createDate desc";
 			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
-			query.setParameter("companyId",companyId);
+			query.setFirstResult((currentPage-1)*pageSize);
+			query.setMaxResults(pageSize);
 			return query.list();
 		} catch (Exception e) {
-			LOGGER.error("PersonDAOImpl#getByDepartmentId({}, {}) : {}", 
-					companyId,
+			LOGGER.error("PersonDAOImpl#getListIdea({}, {}) : {}", 
 					ExceptionUtils.getFullStackTrace(e));
 			throw e;
 		}
@@ -44,15 +44,49 @@ public class PersonDAOImpl extends BaseDao<Person> implements PersonDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Person> getByunionId(String unionId) throws Exception{
+	public List<Person> getByStatus(int status) throws Exception{
 		try {	
-			String queryString = "from Person person where person.unionId = :unionId ";
+			String queryString = "from Person person where person.status = :status ";
 			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
-			query.setParameter("unionId",unionId);
+			query.setParameter("status",status);
 			return query.list();
 		} catch (Exception e) {
 			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
-					unionId,
+					status,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Person> getByCategory(String category, int currentPage, int pageSize) throws Exception{
+		try {	
+			String queryString = "from Person person where person.category = :category order by createDate desc";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setFirstResult((currentPage-1)*pageSize);
+			query.setMaxResults(pageSize);
+			query.setParameter("category",category);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					category,
+					ExceptionUtils.getFullStackTrace(e));
+			throw e;
+		}
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Person> getByCreaterId(String createrId) throws Exception{
+		try {	
+			String queryString = "from Person person where person.createrId = :createrId order by createDate desc";
+			org.hibernate.Query query = getHibernateTemplate().getSessionFactory().getCurrentSession().createQuery(queryString.toString());
+			query.setParameter("createrId",createrId);
+			return query.list();
+		} catch (Exception e) {
+			LOGGER.error("PersonDAOImpl#getListPerson({}, {}) : {}", 
+					createrId,
 					ExceptionUtils.getFullStackTrace(e));
 			throw e;
 		}

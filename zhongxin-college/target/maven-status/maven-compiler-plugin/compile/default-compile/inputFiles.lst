@@ -1,0 +1,9 @@
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/dao/CollegeDAO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/vo/CollegeVO.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/converter/CollegeEntity2VoConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/service/CollegeService.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/converter/CollegeBeanCopierUtil.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/converter/CollegeVo2EntityConverter.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/dao/entity/College.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/service/impl/CollegeServiceImpl.java
+/Users/fanyufeng/2017/bjtu-paopao/zhongxin_master/zhongxin-college/src/main/java/com/dongfang/client/zhongxin/college/dao/impl/CollegeDAOImpl.java
